@@ -11,7 +11,7 @@
   require("class.fivemapi.php");
   $api = new FivemAPI();
   
-  $server = $api->ServerInfo("**127.0.0.1**", "**4441**"); //
+  $server = $api->ServerInfo("127.0.0.1", "30120"); //Change 127.0.0.1 to your IP Server //Change 30120 to your Port Server
   echo json_encode($server);
 ? >
 ```
@@ -22,7 +22,7 @@
   require("class.fivemapi.php");
   $api = new FivemAPI();
   
-  $server = $api->PlayerInfo("103.91.189.169", "4441");
+  $server = $api->PlayerInfo("127.0.0.1", "30120"); //Change 127.0.0.1 to your IP Server //Change 30120 to your Port Server
   echo json_encode($server);
 ?>
 ```
