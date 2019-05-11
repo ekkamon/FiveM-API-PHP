@@ -1,7 +1,7 @@
 # FiveM-API-PHP
-Example class.fivemapi.php
+# Example class.fivemapi.php
 
-######## ServerInfo ########
+# ServerInfo
 <?php
   require("class.fivemapi.php");
   $api = new FivemAPI();
@@ -10,7 +10,7 @@ Example class.fivemapi.php
   echo json_encode($server);
 ?>
 
-######## PlayerInfo ########
+# PlayerInfo
 
 <?php
   require("class.fivemapi.php");
