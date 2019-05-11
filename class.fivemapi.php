@@ -1,13 +1,5 @@
 <?php
-/*
-##################################################
-#												 #
-#		        Free API By CONTROL              #
-#												 #
-##################################################
-
-*/
-
+/* Class API By CONTROL */
 class FivemAPI {
 
 	public function ServerInfo($ip, $port){
@@ -19,6 +11,4 @@ class FivemAPI {
 		$server = json_decode(file_get_contents("http://{$ip}:{$port}/players.json"), true);
 		return $server;
 	}
-
-
 }
