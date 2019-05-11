@@ -1,17 +1,24 @@
 # FiveM-API-PHP
-# Example class.fivemapi.php
+### Example **class.fivemapi.php**
 
-# ServerInfo
+- [x] Php
+- [x] Json
+- [x] UnofficialAPI
+- [x] Free API
+
+#### ServerInfo
+```
 <?php
   require("class.fivemapi.php");
   $api = new FivemAPI();
   
   $server = $api->ServerInfo("103.91.189.169", "4441");
   echo json_encode($server);
-?>
+? >
+```
 
-# PlayerInfo
-
+#### PlayerInfo
+```
 <?php
   require("class.fivemapi.php");
   $api = new FivemAPI();
@@ -19,3 +26,4 @@
   $server = $api->PlayerInfo("103.91.189.169", "4441");
   echo json_encode($server);
 ?>
+```
